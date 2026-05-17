@@ -35,7 +35,10 @@ const Portfolio = () => {
             playsInline
             className="object-cover h-[clamp(15rem,60vh,40rem)] w-full col-start-1 row-start-1"
           >
-            <source src="./videos/video-comprido.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/du2lzkckm/video/upload/v1778994401/video-comprido_tipr49.mp4"
+              type="video/mp4"
+            />
             <track
               src="/legendas.vtt"
               kind="captions"

@@ -20,7 +20,7 @@ const GaleriaVideo = () => {
               poster={item.thumbNailSrc}
               onEnded={() => setActiveVideo(null)}
               active={activeVideo === i}
-              className="col-start-1 row-start-1 w-150 min-[700px]:w-250 min-[1050px]:w-280 min-[1200px]:w-330 min-[1440px]:w-160 h-80 min-[700px]:h-180 min-[1440px]:h-150 object-cover cursor-pointer"
+              className="col-start-1 row-start-1 w-150 min-[700px]:w-250 min-[1050px]:w-280 min-[1200px]:w-280 min-[1440px]:w-160 h-80 min-[700px]:h-180 min-[1200px]:h-150 min-[1440px]:h-150 object-cover cursor-pointer"
             />
             <ImgPlayVideo
               className="absolute col-start-1 row-start-1 justify-self-center cursor-pointer"

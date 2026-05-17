@@ -18,12 +18,11 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-        <div className="xl:pt-30 min-h-screen bg-neutral-1 overflow-x-hidden">
+        <div className="xl:pt-30 min-h-screen bg-red-2 overflow-x-hidden">
           <main>
             {media && <ImgScrollTop />}
             <ScrollToTop />
             <Routes>
-              {/* <Route path="/" element={<PaginaConvidativa />} /> */}
               <Route path="/" element={<Home />} />
               <Route path="/sobre" element={<Sobre />} />
               <Route path="/portfolio" element={<Portfolio />} />
