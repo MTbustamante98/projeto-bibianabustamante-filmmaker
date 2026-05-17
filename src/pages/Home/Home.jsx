@@ -4,7 +4,7 @@ import Video from "../../Componentes/ui/Video";
 import ContainerDescricaoWorks from "./ContainerDescricaoWorks";
 import ImgPlayVideo from "../../Componentes/ImgPlayVideo";
 import ImgGradeMaior from "../../assets/grade-cinza-desktop.svg";
-import BibianaSobreMimHome from "../../assets/bibi-sobremim-home.jpg";
+import BibianaSobreMimHome from "../../assets/bibi-sobremim-home.JPG";
 import BibianaSobreMimHome2 from "../../assets/bibi-sobremim-home-md.jpeg";
 import BibianaSobreMimHome3 from "../../assets/bibi-sobremim-home-pq.jpeg";
 import setaDec1 from "../../assets/seta-dec.svg";
