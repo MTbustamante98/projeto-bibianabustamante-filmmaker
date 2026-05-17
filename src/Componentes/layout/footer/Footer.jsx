@@ -93,7 +93,6 @@ const Footer = () => {
               <li>+55 51 9999-9999</li>
               <li>bibiana_bustamante@hotmail.com</li>
               <span className="bg-neutral-3 w-full h-px"></span>
-              <li>Rua Guadalajara, 433 - Jardim Sabará</li>
               <li>Porto Alegre - RS</li>
             </ul>
           </div>

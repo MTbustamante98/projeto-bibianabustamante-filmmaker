@@ -19,7 +19,7 @@ const Portfolio = () => {
       </section>
       <section className="pt-15 md:pt-30">
         <div className="w-full grid grid-cols-1 grid-rows-1 items-center justify-items-center">
-          <div className="z-10 flex flex-col md:flex-row col-start-1 row-start-1 gap-48 md:gap-80 lg:gap-120 xl:gap-160 2xl:gap-200">
+          <div className="z-10 flex flex-col md:flex-row col-start-1 row-start-1 gap-70 md:gap-80 lg:gap-120 xl:gap-160 2xl:gap-200">
             <Titulo className="text-[clamp(2.125rem,5vw,4rem)] text-neutral-4 font-serif font-medium italic max-w-[7ch]">
               onde ideias incríveis
             </Titulo>
@@ -33,7 +33,7 @@ const Portfolio = () => {
             muted
             loop
             playsInline
-            className="object-cover h-[clamp(15rem,60vh,40rem)] w-full col-start-1 row-start-1"
+            className="object-cover h-[clamp(15rem,100vh,40rem)] w-full col-start-1 row-start-1"
           >
             <source
               src="https://res.cloudinary.com/du2lzkckm/video/upload/v1778994401/video-comprido_tipr49.mp4"
