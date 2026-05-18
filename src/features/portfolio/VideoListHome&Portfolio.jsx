@@ -107,7 +107,7 @@ export const VideoListPortfolio = [
   },
   {
     id: 12,
-    src: "https://res.cloudinary.com/du2lzkckm/video/upload/v1778994424/video12-work_ctg1o7.mp4",
+    src: "https://res.cloudinary.com/du2lzkckm/video/upload/v1779072962/video12-work_tuskpb.mp4",
     projeto: "Nome do projeto",
     cliente: "Nome da pessoa",
     srcImg: "/assets/play-video.svg",

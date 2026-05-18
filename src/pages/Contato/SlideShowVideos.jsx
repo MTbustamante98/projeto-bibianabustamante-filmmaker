@@ -100,7 +100,7 @@ const SlideShowVideos = () => {
                 <Link to="/portfolio">
                   <ShortVideo
                     source={item.src}
-                    className="h-60 w-full md:w-100 lg:w-80 lg:h-100 object-cover"
+                    className="h-[clamp(10rem,100vh,25rem)] w-[clamp(10rem,50vw,25rem)] object-cover"
                   />
                 </Link>
                 <span className="font-serif text-neutral-5 text-xs ml-1">

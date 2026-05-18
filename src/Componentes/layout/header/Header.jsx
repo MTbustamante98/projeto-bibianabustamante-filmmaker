@@ -66,7 +66,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-red-2 fixed w-full z-50 top-0 left-0">
-        <div className="h-30 min-[1200px]:h-24 flex items-center justify-center lg:pr-8 lg:pl-8">
+        <div className="h-30 max-2xl:h-24 flex items-center justify-center lg:pr-8 lg:pl-8">
           <nav>
             <ul className="flex items-center md:gap-10 lg:gap-16 uppercase mr-20 md:mr-10 *:font-regular md:text-sm lg:*:text-sm 2xl:*:text-base **:text-neutral-5 *:tracking-wider">
               <Link

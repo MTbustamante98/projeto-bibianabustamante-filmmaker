@@ -35,8 +35,6 @@ const Footer = () => {
             <ul className="*:text-neutral-4 *:text-sm *:font-light flex flex-col items-center gap-2">
               <li>+55 51 9999-9999</li>
               <li>bibiana_bustamante@hotmail.com</li>
-              <li>Rua Guadalajara, 433 - Jardim Sabará</li>
-              <li>Porto Alegre - RS</li>
             </ul>
           </div>
         </div>
