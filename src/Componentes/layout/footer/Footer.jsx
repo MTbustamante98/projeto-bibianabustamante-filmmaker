@@ -105,7 +105,7 @@ const FooterDesktop = ({ SourceShortVideo, responsive }) => {
             contato
           </h1>
           <ul className="flex flex-col gap-3 *:xl:place-self-auto *:text-neutral-4 *:text-sm *:font-light">
-            <li>+55 51 9999-9999</li>
+            <li>+55 51 9369-3579</li>
             <li>
               <a href="mailto:bibiana_bustamante@hotmail.com">
                 bibiana_bustamante@hotmail.com
