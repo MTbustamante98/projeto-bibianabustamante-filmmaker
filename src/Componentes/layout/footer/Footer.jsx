@@ -61,13 +61,13 @@ const FooterMobile = ({ scrollTop }) => {
           </h1>
           <ul className="*:text-neutral-4 *:text-sm *:font-light flex flex-col items-center gap-2 *:hover:underline">
             <li>
-              <Link href="/portfolio">Portfólio</Link>
+              <Link to="/portfolio">Portfólio</Link>
             </li>
             <li>
-              <Link href="/sobre">Sobre mim</Link>
+              <Link to="/sobre">Sobre mim</Link>
             </li>
             <li>
-              <Link href="/contato">Contato</Link>
+              <Link to="/contato">Contato</Link>
             </li>
           </ul>
         </div>
@@ -121,13 +121,13 @@ const FooterDesktop = ({ SourceShortVideo, responsive }) => {
           </h1>
           <ul className="flex flex-col gap-4 *:text-neutral-4 *:text-sm *:font-light *:hover:underline *:xl:place-self-auto">
             <li>
-              <Link href="/portfolio">Portfólio</Link>
+              <Link to="/portfolio">Portfólio</Link>
             </li>
             <li>
-              <Link href="/sobre">Sobre mim</Link>
+              <Link to="/sobre">Sobre mim</Link>
             </li>
             <li>
-              <Link href="/contato">Contato</Link>
+              <Link to="/contato">Contato</Link>
             </li>
           </ul>
         </div>
