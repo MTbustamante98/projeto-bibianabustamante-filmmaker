@@ -34,7 +34,11 @@ const Footer = () => {
             </h1>
             <ul className="*:text-neutral-4 *:text-sm *:font-light flex flex-col items-center gap-2">
               <li>+55 51 9999-9999</li>
-              <li>bibiana_bustamante@hotmail.com</li>
+              <li>
+                <a href="mailto:bibiana_bustamante@hotmail.com">
+                  bibiana_bustamante@hotmail.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -89,7 +93,11 @@ const Footer = () => {
             </h1>
             <ul className="flex flex-col gap-3 *:xl:place-self-auto *:text-neutral-4 *:text-sm *:font-light">
               <li>+55 51 9999-9999</li>
-              <li>bibiana_bustamante@hotmail.com</li>
+              <li>
+                <a href="mailto:bibiana_bustamante@hotmail.com">
+                  bibiana_bustamante@hotmail.com
+                </a>
+              </li>
               <span className="bg-neutral-3 w-full h-px"></span>
               <li>Porto Alegre - RS</li>
             </ul>

@@ -81,7 +81,9 @@ const Sobre = () => {
               trabalho & colaboração
             </p>
             <span className="relative text-sm text-neutral-5 after:absolute after:w-full after:h-0.5 after:bg-neutral-5 after:-bottom-0.5 after:left-0">
-              bibiana_bustamante@hotmail.com
+              <a href="mailto:bibiana_bustamante@hotmail.com">
+                bibiana_bustamante@hotmail.com
+              </a>
             </span>
             <div className="flex items-center gap-8 mt-5 font-medium">
               <a

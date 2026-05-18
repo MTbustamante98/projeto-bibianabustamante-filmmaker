@@ -54,14 +54,14 @@ const Home = () => {
           alt=""
         />
         <video
-          className={`col-start-1 row-start-1 size-full object-cover transition-opacity duration-300 ${
+          className={`col-start-1 row-start-1 max-sm:h-100 size-full object-cover transition-opacity duration-300 ${
             videoReady ? "opacity-100" : "opacity-0"
           }`}
           autoPlay
           muted
           loop
           playsInline
-          src="https://res.cloudinary.com/du2lzkckm/video/upload/v1778994404/compilado_pttbsr.mp4"
+          src="https://res.cloudinary.com/du2lzkckm/video/upload/v1779077072/compilado_jkmmdf.mp4"
           onCanPlay={() => setVideoReady(true)}
         ></video>
         <div className="col-start-1 row-start-1 z-10 flex flex-col items-center gap-10 mt-12">
