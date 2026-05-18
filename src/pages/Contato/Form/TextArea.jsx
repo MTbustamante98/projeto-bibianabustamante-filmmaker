@@ -1,5 +1,3 @@
-import React from "react";
-
 const TextArea = ({ value, name, label, onChange, onBlur, error }) => {
   return (
     <div className="xl:col-span-2">

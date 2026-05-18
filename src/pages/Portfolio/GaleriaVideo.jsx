@@ -5,6 +5,7 @@ import ImgPlayVideo from "../../Componentes/ImgPlayVideo.jsx";
 
 const GaleriaVideo = () => {
   const [activeVideo, setActiveVideo] = React.useState(null);
+  
   return (
     <section className="overflow-y-hidden flex flex-col xl:flex-row xl:flex-wrap gap-8">
       {VideoListPortfolio &&

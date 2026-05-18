@@ -16,24 +16,24 @@ import ShortVideo from "../../features/shortVideos/components/ShortVideo.jsx";
 import { VideoListHome } from "../../features/portfolio/VideoListHome&Portfolio.jsx";
 import Head from "../../Componentes/common/Helper/Head.jsx";
 
+const imagens = {
+  mobile: {
+    src: BibianaSobreMimHome3,
+  },
+  tablet: {
+    src: BibianaSobreMimHome2,
+  },
+  desktop: {
+    src: BibianaSobreMimHome,
+    className: "w-[clamp(10rem,50vw,80rem)] h-[clamp(10rem,50vw,80rem)]",
+  },
+};
+
 const Home = () => {
   const [activeVideo, setActiveVideo] = React.useState(null);
   const [videoReady, setVideoReady] = React.useState(false);
   const responsiveMobile = useMedia("(max-width: 28.75rem)");
   const responsiveXl = useMedia("(max-width: 79.938rem)");
-
-  const imagens = {
-    mobile: {
-      src: BibianaSobreMimHome3,
-    },
-    tablet: {
-      src: BibianaSobreMimHome2,
-    },
-    desktop: {
-      src: BibianaSobreMimHome,
-      className: "w-[clamp(10rem,50vw,80rem)] h-[clamp(10rem,50vw,80rem)]",
-    },
-  };
 
   const device = responsiveMobile
     ? "mobile"
